@@ -1,0 +1,47 @@
+body{
+    background-color: rgba(192, 172, 81, 0.788);
+}
+
+.card img{
+    height: 280px;
+    object-fit: cover;
+}
+
+section{
+    padding: 60px 0;
+}
+
+.navbar{
+    box-shadow: 0px 2px 8px rgba(0,0,0,0.15);
+}
+
+.card{
+    transition: 0.3s;
+}
+
+.card:hover{
+    transform: scale(1.03);
+}
+
+footer{
+    background-color:#212529;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+
+#mensaje{
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    transition:0.3s;
+}
+
+.correcto{
+    color: green;
+}
+
+.error{
+    color: red;
+}
